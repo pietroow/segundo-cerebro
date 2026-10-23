@@ -13,8 +13,8 @@ Progresso do `/segundo-cerebro`. Rode de novo a qualquer momento pra continuar d
 - [ ] Fase 0: onde mora o cofre e ponto de partida
 - [ ] Fase 1: output primeiro (briefing pessoal)
 - [ ] Fase 2: Fluxo 1, o seu cérebro (pastas, tópicos, templates)
-- [ ] Fase 3: Fluxo 2, o ambiente da IA (`Claude/`)
-- [ ] Fase 4: Fluxo 3, a fronteira (`CLAUDE.md`)
+- [ ] Fase 3: Fluxo 2, o ambiente da IA (`_agents/`)
+- [ ] Fase 4: Fluxo 3, a fronteira (`AGENTS.md`)
 - [ ] Fase 5: primeiro ciclo completo
 - [ ] Fase 6: manutenção e fechamento
 

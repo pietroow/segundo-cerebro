@@ -19,11 +19,12 @@ A numeração mantém a ordem no Obsidian.
 ├── 40 Arquivo/          projetos concluídos e o que saiu de uso
 ├── 90 Anexos/           imagens e PDFs
 ├── 99 Templates/        modelos das suas notas
-├── Claude/              ← ambiente da IA (Fluxo 2)
-└── CLAUDE.md            ← a fronteira (Fluxo 3)
+├── _agents/             ← ambiente da IA (Fluxo 2)
+├── AGENTS.md            ← a fronteira (Fluxo 3), lida por qualquer agente
+└── CLAUDE.md            ← uma linha só, @AGENTS.md, pro Claude Code ler as mesmas regras
 ```
 
-Quem escreve: **você**. A IA pode ler (menos as pastas bloqueadas no `CLAUDE.md`), buscar e sugerir.
+Quem escreve: **você**. A IA pode ler (menos as pastas bloqueadas no `AGENTS.md`), buscar e sugerir.
 Criar pastas, hubs vazios e templates é organização, então é permitido com aprovação. Conteúdo autoral, nunca.
 
 > A estrutura vem do PARA (Tiago Forte) + Zettelkasten, como no vídeo de referência, que usa
@@ -41,7 +42,7 @@ Criar pastas, hubs vazios e templates é organização, então é permitido com 
 ## Fluxo 2: o ambiente da IA (onde ela trabalha)
 
 ```
-Claude/
+_agents/
 ├── 00 Outputs/                 planos, rascunhos, transcrições, entregas, mapas de curadoria
 ├── 01 Skills/                  índice e documentação das suas skills
 ├── 02 Logs e Memoria/
@@ -55,7 +56,7 @@ Claude/
 └── 07 Briefings e Databases/   briefing pessoal, dados de referência, bases pra consulta
 ```
 
-**Dentro de `Claude/`, autonomia total**: criar, editar, mover, deletar e organizar.
+**Dentro de `_agents/`, autonomia total**: criar, editar, mover, deletar e organizar.
 Exceção de bom senso: pedir ok antes de apagar algo que a pessoa ainda não revisou.
 
 ### Conteúdo dos `_LEIA.md` (um por pasta)
@@ -82,7 +83,7 @@ Crie cada `_LEIA.md` com este formato (título + 2 blocos curtos):
 
 ## Fluxo 3: a fronteira
 
-Vive no `CLAUDE.md` da raiz (template em `templates/CLAUDE.template.md`).
+Vive no `AGENTS.md` da raiz (template em `templates/AGENTS.template.md`).
 
 ## Tipos de nota e frontmatter
 
@@ -93,9 +94,9 @@ Vive no `CLAUDE.md` da raiz (template em `templates/CLAUDE.template.md`).
 | `permanente` | `eu` | `20 Recursos/`, `10 Projetos/<x>/`, `30 Sistemas/` | **você** |
 | `topico` | `eu` | `02 Topicos/` | você; a IA adiciona links com aprovação |
 | `diario` | `eu` | `03 Diario/` | **você** |
-| `briefing` | `eu` | `Claude/07 Briefings e Databases/` | você (respostas transcritas literalmente) |
-| `curadoria` | `ia` | `Claude/00 Outputs/` | IA, **sobre** as suas notas |
-| `output` | `ia` | `Claude/00 Outputs/` | IA |
+| `briefing` | `eu` | `_agents/07 Briefings e Databases/` | você (respostas transcritas literalmente) |
+| `curadoria` | `ia` | `_agents/00 Outputs/` | IA, **sobre** as suas notas |
+| `output` | `ia` | `_agents/00 Outputs/` | IA |
 
 Campos:
 
@@ -110,4 +111,4 @@ topicos: ["[[Assunto]]"]
 ---
 ```
 
-**Checagem da fronteira:** qualquer nota **fora** de `Claude/` com `autor: ia` é uma violação e deve aparecer na revisão.
+**Checagem da fronteira:** qualquer nota **fora** de `_agents/` com `autor: ia` é uma violação e deve aparecer na revisão.

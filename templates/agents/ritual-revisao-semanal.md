@@ -22,8 +22,8 @@ Rodar: `/segundo-cerebro revisar`
 - [ ] Logs com mais de 30 dias: virar um resumo mensal
 
 ## Fronteira e rumo (5 min)
-- [ ] Alguma nota fora de `Claude/` com `autor: ia`? Corrigir
+- [ ] Alguma nota fora de `_agents/` com `autor: ia`? Corrigir
 - [ ] Projetos parados há mais de 30 dias → `40 Arquivo/`
-- [ ] Alguma decisão da semana que vale registrar em `Claude/06 Decisoes/`?
-- [ ] O `CLAUDE.md` ainda reflete como quero trabalhar?
+- [ ] Alguma decisão da semana que vale registrar em `_agents/06 Decisoes/`?
+- [ ] O `AGENTS.md` ainda reflete como quero trabalhar?
 - [ ] O sistema está me aproximando do output que defini no briefing?

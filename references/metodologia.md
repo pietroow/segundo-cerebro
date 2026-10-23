@@ -5,14 +5,14 @@
 
 ## 1. O problema: setup não é sistema
 
-O que todo mundo ensina é o **setup**: instalar o Obsidian, conectar o Claude Code, criar umas pastas.
+O que todo mundo ensina é o **setup**: instalar o Obsidian, conectar o Claude Code ou o Codex, criar umas pastas.
 Tudo isso é verdade e funciona:
 
 - os arquivos são **locais** (privacidade) e em **markdown**, formato que a IA lê com muita facilidade;
-- o `CLAUDE.md` guarda o contexto e as regras mais prioritárias do agente;
+- o `AGENTS.md` guarda o contexto e as regras mais prioritárias do agente;
 - **skills** viram comandos reutilizáveis;
 - tem **efeito composto**, porque ganha valor com o tempo;
-- o **custo é baixo**: Obsidian é grátis e o Claude Code roda no plano da pessoa, sem precisar de API.
+- o **custo é baixo**: Obsidian é grátis e o agente (Claude Code ou Codex) roda no plano da pessoa, sem precisar de API.
 
 Mas isso é comprar panelas caras. **Não é saber cozinhar.** Uma pasta cheia de notas geradas por IA,
 que a pessoa nem sabe o que dizem, não é segundo cérebro. É acúmulo.
@@ -95,7 +95,7 @@ Lado **seu**: Inbox (caixa de entrada) · Processamento (o que está estudando) 
 que linkam assuntos) · Banco de imagens · Notas diárias · Backlog · PARA de Tiago Forte (Projetos,
 Recursos, Arquivo e Sistemas).
 
-Lado **da IA**: uma pasta própria, `Claude/`, dentro do cofre.
+Lado **da IA**: uma pasta própria, `_agents/`, dentro do cofre.
 
 ### Como se chegou nessa estrutura (as 3 tentativas)
 
@@ -121,7 +121,7 @@ Pode acrescentar outros. **O que dá poder é a clareza que você passa pra IA, 
 
 ## 8. O efeito composto que ninguém explica
 
-- **O Claude não tem memória entre sessões.** Quem fica mais inteligente são **os arquivos**.
+- **A IA não tem memória entre sessões.** Quem fica mais inteligente são **os arquivos**.
 - Isso só acontece se alguém **mantém** esses arquivos: revisar, podar e eliminar o que não serve.
 - Sem manutenção, o cofre acumula lixo. **Mais arquivos não significa mais inteligência.** Vira aquela
   documentação gigante de empresa que ninguém mantém, ninguém consulta e ninguém atualiza.

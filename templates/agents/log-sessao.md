@@ -9,6 +9,6 @@ data: AAAA-MM-DD
 
 - **Pedido:**
 - **Feito:**
-- **Arquivos criados ou alterados:** `Claude/...`, (fora de `Claude/`, com aprovação) `...`
+- **Arquivos criados ou alterados:** `_agents/...`, (fora de `_agents/`, com aprovação) `...`
 - **Decisões:**
 - **Pendências:**
